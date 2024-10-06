@@ -61,7 +61,7 @@ const app = express();
 
 // CORS configuration for specific frontend origin
 app.use(cors({
-  origin: ["https://fullstack-mern-front.vercel.app"], 
+  origin: ["https://frontend-alpha-three-77.vercel.app"], 
   methods: ["GET", "POST", "PUT"],
   credentials: true
 }));
